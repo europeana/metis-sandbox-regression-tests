@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Deepti Pandit/IdeaProjects/Sandbox">
+        <classes>
+            <class name="All_Types.Chrome_Test">
+                <methods>
+                    <include name="ChromeTest"/>
+                </methods>
+            </class>
+            <class name="All_Types.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="All_Types.Firefox_Test">
+                <methods>
+                    <include name="FirefoxTest"/>
+                </methods>
+            </class>
+            <class name="Date_Normalization.Chrome_Test">
+                <methods>
+                    <include name="ChromeTest"/>
+                </methods>
+            </class>
+            <class name="Date_Normalization.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="Date_Normalization.Firefox_Test">
+                <methods>
+                    <include name="FirefoxTest"/>
+                </methods>
+            </class>
+            <class name="Duplicate_Records.Chrome_Test">
+                <methods>
+                    <include name="ChromeTest"/>
+                </methods>
+            </class>
+            <class name="Duplicate_Records.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="Duplicate_Records.Firefox_Test">
+                <methods>
+                    <include name="FirefoxTest"/>
+                </methods>
+            </class>
+            <class name="Empty_Record.Chrome_Test">
+                <methods>
+                    <include name="ChromeTest"/>
+                </methods>
+            </class>
+            <class name="Empty_Record.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="Empty_Record.Firefox_Test">
+                <methods>
+                    <include name="FirefoxTest"/>
+                </methods>
+            </class>
+            <class name="Illegal_Enrichment_Charcter.Chrome_Test">
+                <methods>
+                    <include name="ChromeTest"/>
+                </methods>
+            </class>
+            <class name="Illegal_Enrichment_Charcter.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="Missing_Description.Chrome_Test">
+                <methods>
+                    <include name="ChromeTest"/>
+                </methods>
+            </class>
+            <class name="Missing_Description.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="Small_Dataset.Chrome_Test">
+                <methods>
+                    <include name="ChromeTest"/>
+                </methods>
+            </class>
+            <class name="Small_Dataset.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="Step_Size.Chrome_Test">
+                <methods>
+                    <include name="ChromeTest"/>
+                </methods>
+            </class>
+            <class name="Step_Size.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="Step_Size_large_file.Chrome_Test">
+                <methods>
+                    <include name="ChromeTest"/>
+                </methods>
+            </class>
+            <class name="Step_Size_large_file.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="Unknown_Vocabulary.Chrome_Test">
+                <methods>
+                    <include name="ChromeTest"/>
+                </methods>
+            </class>
+            <class name="Unknown_Vocabulary.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+            <class name="Xslt.Chrome_Test">
+                <methods>
+                    <include name="ChromeTest"/>
+                </methods>
+            </class>
+            <class name="Xslt.Firefox_Test">
+                <methods>
+                    <include name="FirefoxTest"/>
+                </methods>
+            </class>
+            <class name="Xslt.Edge_Test">
+                <methods>
+                    <include name="EdgeTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
