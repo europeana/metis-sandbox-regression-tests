@@ -25,7 +25,7 @@ public class Firefox_Test {
         driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/ul/li/label/a")).click();
 
         //Enter a valid name
-        driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/sb-upload/form/div[1]/input")).sendKeys("Deepti_Step_size_large_file_1");
+        driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/sb-upload/form/div[1]/input")).sendKeys("Automation_Step_size_large_file_firefox");
 
         // Selecting a country from drop down
         WebElement country_drop_down = driver.findElement(By.id("country"));

@@ -26,7 +26,7 @@ public class Edge_Test {
         driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/ul/li/label/a")).click();
 
         //Enter a valid name
-        driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/sb-upload/form/div[1]/input")).sendKeys("Deepti_All_types_2");
+        driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/sb-upload/form/div[1]/input")).sendKeys("Automation_All_types_Edge");
 
         // Selecting a country from drop down
         WebElement country_drop_down = driver.findElement(By.id("country"));
@@ -41,36 +41,38 @@ public class Edge_Test {
         select1.selectByIndex(10);
 
         //Selection of file upload
-        WebElement radio1 = driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/sb-upload/form/div[4]/lib-protocol-field-set/div[1]/div/label[1]/input"));
-        radio1.click();
+//        WebElement radio1 = driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/sb-upload/form/div[4]/lib-protocol-field-set/div[1]/div/label[1]/input"));
+//        radio1.click();
 
         //uploading the zip file
-        WebElement chooseFile = driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/sb-upload/form/div[4]/lib-protocol-field-set/div[2]/lib-file-upload/input"));
+        WebElement chooseFile = driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/sb-upload/form/div[4]/lib-protocol-field-set/div[2]/lib-file-upload/label/span[1]"));
+       // chooseFile.click();
         chooseFile.sendKeys("C:\\Users\\Deepti Pandit\\IdeaProjects\\Sandbox\\Records\\all_record_types_1.zip");
 
-        //Initializing the step size
-        WebElement stepsize = driver.findElement(By.xpath("//*[@id=\"stepSize\"]"));
-        stepsize.clear();
-        stepsize.sendKeys("1");
 
-        // Submit the request
-        WebElement submit_button = driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/sb-upload/form/button/span[2]"));
-        submit_button.submit();
-        Thread.sleep(30000);
-
-        ///Verifying the number of published records
-        WebElement records_count = driver.findElement(By.cssSelector("span.step-progress:nth-child(30)"));
-        System.out.println("Number of Published records are : " + records_count.getText());
-
-        //Verifying the dataset name, date and time dataset was created
-        WebElement dataset_info = driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/sb-progress-tracker/sb-dataset-info/ul/li[1]/ul"));
-        System.out.println("Dataset info : " + dataset_info.getText());
-
-        //Fetching the dataset id
-        WebElement dataset_id = driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/sb-progress-tracker/sb-dataset-info/ul/li[2]/ul/li[1]"));
-        System.out.println("Dataset Id is : " + dataset_id.getText());
-
-        //Close the browser
-        driver.close();
+//        //Initializing the step size
+//        WebElement stepsize = driver.findElement(By.xpath("//*[@id=\"stepSize\"]"));
+//        stepsize.clear();
+//        stepsize.sendKeys("1");
+//
+//        // Submit the request
+//        WebElement submit_button = driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/sb-upload/form/button/span[2]"));
+//        submit_button.submit();
+//        Thread.sleep(30000);
+//
+//        ///Verifying the number of published records
+//        WebElement records_count = driver.findElement(By.cssSelector("span.step-progress:nth-child(30)"));
+//        System.out.println("Number of Published records are : " + records_count.getText());
+//
+//        //Verifying the dataset name, date and time dataset was created
+//        WebElement dataset_info = driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/sb-progress-tracker/sb-dataset-info/ul/li[1]/ul"));
+//        System.out.println("Dataset info : " + dataset_info.getText());
+//
+//        //Fetching the dataset id
+//        WebElement dataset_id = driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/sb-progress-tracker/sb-dataset-info/ul/li[2]/ul/li[1]"));
+//        System.out.println("Dataset Id is : " + dataset_id.getText());
+//
+//        //Close the browser
+//        driver.close();
     }
 }

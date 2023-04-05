@@ -23,7 +23,7 @@ public class Edge_Test {
         driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/ul/li/label/a")).click();
 
         //Enter a valid name
-        driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/sb-upload/form/div[1]/input")).sendKeys("Deepti_date_normalization_2");
+        driver.findElement(By.xpath("/html/body/sb-root/div[3]/sb-sandbox-navigation/main/div[2]/sb-upload/form/div[1]/input")).sendKeys("Automation_date_normalization_edge");
 
         // Selecting a country from drop down
         WebElement country_drop_down = driver.findElement(By.id("country"));
